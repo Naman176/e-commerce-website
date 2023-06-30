@@ -1,0 +1,32 @@
+img{
+    height:50px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd33;
+  }
+  .inventorypage{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .editicon{
+    height:25px;
+    padding:0 25px;
+    cursor:pointer;
+  }

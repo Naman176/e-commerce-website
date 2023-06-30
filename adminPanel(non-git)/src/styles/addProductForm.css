@@ -1,0 +1,58 @@
+.addproductpage{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(90, 234, 239, 0.771);
+    padding: 3% 10%;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 105%;
+    align-items: center;
+    padding: 3%;
+}
+
+input{
+    padding: 2% 3%;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
+button{
+    border-radius: 10px;
+    padding: 9px 26px;
+    border: none;
+    color: white;
+    background: black;
+    font-size: larger;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(235, 144, 144);
+    color: black;
+    /* border:1px solid black; */
+}
+.modal{
+    position: absolute;
+    background-color:rgba(255, 255, 255, 0.683) ;
+    top:5%;
+   
+}
