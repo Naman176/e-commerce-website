@@ -28,7 +28,7 @@ const Contact = ({ location, isLogin }) => {
         <div className="contact-area pt-100 pb-100">
           <div className="container">
             <div className="contact-map mb-10">
-              <LocationMap latitude="47.444" longitude="-122.176" />
+              <LocationMap latitude="25.434" longitude="81.765" />
             </div>
             <div className="custom-row-2">
               <div className="col-lg-4 col-md-5">
@@ -38,8 +38,8 @@ const Contact = ({ location, isLogin }) => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>+012 345 678 102</p>
-                      <p>+012 345 678 102</p>
+                      <p>+91 81028 60704</p>
+                      <p>+91 73980 34267 </p>
                     </div>
                   </div>
                   <div className="single-contact-info">
@@ -60,15 +60,15 @@ const Contact = ({ location, isLogin }) => {
                       <i className="fa fa-map-marker" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>Address goes here, </p>
-                      <p>street, Crossroad 123.</p>
+                      <p>Flone-House,Jhalwa, <br></br>
+                      Prayagraj-211012</p>
                     </div>
                   </div>
                   <div className="contact-social text-center">
                     <h3>Follow Us</h3>
                     <ul>
                       <li>
-                        <a href="//facebook.com">
+                        <a href="https://www.facebook.com/profile.php?id=100066887029145">
                           <i className="fa fa-facebook" />
                         </a>
                       </li>

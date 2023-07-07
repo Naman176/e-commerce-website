@@ -17,7 +17,8 @@ app.use(express.json());
 app.use(cookieParser());
 // app.use(cors());
 const UserModel = require('./models/user');
-const mongoURI = "mongodb://localhost:27017/Curasso1";
+//const mongoURI = "mongodb://localhost:27017/Curasso1";
+const mongoURI = "mongodb+srv://bharatbhushan:Bharat2219@cluster0.vrt3em7.mongodb.net/";
 // const fronendURL = "https://for-shops.vercel.app";
 const fronendURL = "http://localhost:3000";
 // app.use(cors({
